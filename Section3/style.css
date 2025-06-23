@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.needs_text {
+    display: flex;
+    gap: 10px;
+}
+
+.needs_text p {
+    color: #949494;
+    font-size: 25px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card_one {
+    background-image: url(./img/IMAGE.png);
+    width: 516px;
+    height: 650px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 24px;
+}
+
+.card_two {
+    background-image: url(./img/IMAGE\ \(1\).png);
+    width: 516px;
+    height: 650px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.card_three {
+    background-image: url(./img/1b899c231e0bdbba964b686d7353d065b63ed985.png);
+    width: 516px;
+    height: 650px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 24px;
+}
+
+.cards_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flage {
+    width: 24px;
+    height: 24px;
+}
+
+.card_header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_btn {
+    background: #ffffff00;
+    border: 1.5px solid black;
+    color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.card_btn:hover {
+    background: #ffffff00;
+    border: 1.5px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 160px;
+    height: 35px;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.btn {
+    background: #ffffff00;
+    border: 1.5px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.btn:hover {
+    background: #ffffff00;
+    border: 1.5px solid black;
+    color: black;
+    width: 160px;
+    height: 35px;
+    border-radius: 2px;
+    border-width: 2px;
+    transition: 1s;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
